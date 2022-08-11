@@ -11,19 +11,19 @@
 
 <body>
     <div class="container">
-        <div class="key active">A <span>BASS</span></div>
-        <div class="key">S <span>CLAP</span></div>
-        <div class="key">D <span>CYMBAL</span></div>
-        <div class="key">F <span>HI HAT</span></div>
-        <div class="key">G <span>KICK</span></div>
-        <div class="key">H <span>SNARE</span></div>
+        <div data-key="KeyA" class="key active">A <span>BASS</span></div>
+        <div data-key="KeyS" class="key">S <span>CLAP</span></div>
+        <div data-key="KeyD" class="key">D <span>CYMBAL</span></div>
+        <div data-key="KeyF" class="key">F <span>HI HAT</span></div>
+        <div data-key="KeyG" class="key">G <span>KICK</span></div>
+        <div data-key="KeyH" class="key">H <span>SNARE</span></div>
     </div>
-    <audio src="sounds/bass (5).WAV"></audio>
-    <audio src="sounds/clap (2).wav"></audio>
-    <audio src="sounds/cymbal (1).wav"></audio>
-    <audio src="sounds/hi hat (2).WAV"></audio>
-    <audio src="sounds/kick (7).wav"></audio>
-    <audio src="sounds/snare (3).WAV"></audio>
+    <audio data-key="KeyA" src="./sounds/bass (5).WAV"></audio>
+    <audio data-key="KeyS" src="sounds/clap (2).wav"></audio>
+    <audio data-key="KeyD" src="sounds/cymbal (1).wav"></audio>
+    <audio data-key="KeyF" src="sounds/hi hat (2).WAV"></audio>
+    <audio data-key="KeyG" src="sounds/kick (7).wav"></audio>
+    <audio data-key="KeyH" src="sounds/snare (3).WAV"></audio>
     <script src="script.js"></script>
 </body>
 
