@@ -5,7 +5,6 @@ window.addEventListener("keydown", (e) => {
   let audio = document.querySelector(`audio[data-key="${e.code}"]`);
   let div = document.querySelector(`div[data-key="${e.code}"]`);
 
-  console.log(audio);
   if (!audio) {
     return;
   }
