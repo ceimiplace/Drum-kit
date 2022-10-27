@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.05s ease;
+  white-space: nowrap;
 }
 
 span {
